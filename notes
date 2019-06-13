@@ -1,0 +1,5 @@
+dotnet ef dbcontext scaffold "server=localhost;database=SafariVacation" Npgsql.EntityFrameworkCore.PostgreSQL -c SafariVacationContext
+
+tgres
+
+psql -c "CREATE DATABASE SafariVacation" "user=postgres password=Nadas0ul12#"
